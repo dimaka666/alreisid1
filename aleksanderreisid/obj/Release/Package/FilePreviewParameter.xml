@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="areisid" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\dmitr_000\\Desktop\\aleksanderreisid\\aleksanderreisid\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\dmitr_000\\Desktop\\aleksanderreisid\\aleksanderreisid\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="aleksanderreisidContext-Web.config Connection String" description="" value="Server=us-cdbr-azure-west-a.cloudapp.net;Database=as_4f8d677fb94a3cd;Uid=b7dac84903b1cb;Pwd=e57cb0c6" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dmitr_000\\Desktop\\aleksanderreisid\\aleksanderreisid\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='aleksanderreisidContext']/@connectionString" />
+  </parameter>
+</parameters>

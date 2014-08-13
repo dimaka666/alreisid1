@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="aleksanderreisidContext-Web.config Connection String" description="aleksanderreisidContext Connection String used in web.config by the application to access the database." defaultValue="Server=us-cdbr-azure-west-a.cloudapp.net;Database=as_4f8d677fb94a3cd;Uid=b7dac84903b1cb;Pwd=e57cb0c6;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dmitr_000\\Desktop\\aleksanderreisid\\aleksanderreisid\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='aleksanderreisidContext']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aleksanderreisid", "aleksanderreisid\aleksanderreisid.csproj", "{73594ADD-084D-4432-B56C-5EE254DD9943}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{23FFE236-CC82-46CD-8694-465BEBA05BDD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebAppPublishModule.psm1 = PublishScripts\AzureWebAppPublishModule.psm1
+		PublishScripts\Publish-WebApplication.ps1 = PublishScripts\Publish-WebApplication.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{96B46605-E969-4DDE-9F51-C820470FAA71}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\aleksanderreisid-WAWS-dev.json = PublishScripts\Configurations\aleksanderreisid-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mitdim.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = aleksanderreisid\\aleksanderreisid.csproj
+		SccProjectName1 = aleksanderreisid
+		SccLocalPath1 = aleksanderreisid
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73594ADD-084D-4432-B56C-5EE254DD9943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73594ADD-084D-4432-B56C-5EE254DD9943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73594ADD-084D-4432-B56C-5EE254DD9943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73594ADD-084D-4432-B56C-5EE254DD9943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96B46605-E969-4DDE-9F51-C820470FAA71} = {23FFE236-CC82-46CD-8694-465BEBA05BDD}
+	EndGlobalSection
+EndGlobal

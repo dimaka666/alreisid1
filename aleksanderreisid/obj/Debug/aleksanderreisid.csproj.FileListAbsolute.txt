@@ -1,0 +1,62 @@
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\aleksanderreisid.dll.config
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\aleksanderreisid.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\aleksanderreisid.pdb
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\Antlr3.Runtime.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\Newtonsoft.Json.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.Helpers.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.Mvc.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.Optimization.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.Razor.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.Deployment.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.Razor.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\WebGrease.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.Helpers.xml
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.Mvc.xml
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.Optimization.xml
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.Razor.xml
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.xml
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.Deployment.xml
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.Razor.xml
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\Newtonsoft.Json.xml
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\Antlr3.Runtime.pdb
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\obj\Debug\aleksanderreisid.csprojResolveAssemblyReference.cache
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\obj\Debug\aleksanderreisid.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\obj\Debug\aleksanderreisid.pdb
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\EntityFramework.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\EntityFramework.SqlServer.dll
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\EntityFramework.xml
+c:\users\dmitri\documents\visual studio 2013\Projects\aleksanderreisid\aleksanderreisid\bin\EntityFramework.SqlServer.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\aleksanderreisid.dll.config
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\aleksanderreisid.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\aleksanderreisid.pdb
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\Antlr3.Runtime.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\EntityFramework.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\EntityFramework.SqlServer.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\MySql.Data.Entity.EF6.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\Newtonsoft.Json.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.Helpers.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.Mvc.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.Optimization.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.Razor.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.Razor.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\WebGrease.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\EntityFramework.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\EntityFramework.SqlServer.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.Helpers.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.Mvc.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.Optimization.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.Razor.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\System.Web.WebPages.Razor.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\Newtonsoft.Json.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\Antlr3.Runtime.pdb
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\obj\Debug\aleksanderreisid.dll
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\obj\Debug\aleksanderreisid.pdb
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\aleksanderreisid.dll.CodeAnalysisLog.xml
+C:\Users\dmitr_000\Desktop\aleksanderreisid\aleksanderreisid\bin\aleksanderreisid.dll.lastcodeanalysissucceeded

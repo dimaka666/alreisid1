@@ -1,0 +1,67 @@
+﻿@model IEnumerable<aleksanderreisid.Models.Content>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<div class="container">
+    <section>
+        <!-- begin .boxes -->
+        <div class="boxes">
+            <ul>
+                @foreach (var item in Model)
+                {
+                    if (item.Page == 0)
+                    {
+                        <li class="shadowStyle">
+                            <h2>@Html.DisplayFor(modelItem => item.Label)</h2>
+                            <img src="images/boxPic1.jpg" alt="" class="boxPic shadowStyle">
+                            <p>@Html.DisplayFor(modelItem => item.Text) </p>
+                            <div class="button"><a href=""><img src="images/more.png" alt=""></a></div>
+                        </li>
+                    }
+                }
+            </ul>
+            <br class="clearfloat" />
+        </div>
+        <!-- end .boxes -->
+            @foreach (var item in Model)
+            {
+                if (item.Page == 1)
+                {
+                    <h1>@Html.DisplayFor(modelItem => item.Label)</h1>
+                    <p>@Html.DisplayFor(modelItem => item.Text) </p>
+                }
+            }
+
+    </section>
+    <!-- begin Right List -->
+    <div class="rightList shadowStyle">
+        @foreach (var item in Model)
+            {
+                if (item.Page == 2)
+                {
+                    <h2>@Html.DisplayFor(modelItem => item.Label)</h2>
+                    <p>
+                        <img src="images/pic.jpg" alt="" class="floatPic shadowStyle">
+                        @Html.DisplayFor(modelItem => item.Text)
+                    </p>
+                }
+            }
+    </div>
+    <!-- end Right List -->
+    <!-- begin Left List -->
+   <!--  <div class="leftList">
+        <h2>Species Profiles</h2>
+        <ul>
+            <li><a href="">Lorem Ipsum is simply dummy</a></li>
+            <li><a href="">Text of the printing and typesetting industry</a></li>
+            <li><a href="">The industry's standard dummy text</a></li>
+            <li><a href="">Ever since the 1500s, when an unknown</a></li>
+            <li><a href="">Printer took a galley of type and scrambled</a></li>
+            <li><a href="">Make a type specimen book</a></li>
+            <li><a href="">It has survived not only five centuries</a></li>
+        </ul>
+    </div> -->
+    <!-- end Left List -->
+    <br class="clearfloat" />
+</div>

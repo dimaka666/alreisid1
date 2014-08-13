@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Responsive Template #10 - large palm</title>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.flexslider-min.js"></script>
+    <script src="~/Scripts/common.js"></script>
+    @Styles.Render("~/Content/styles.css")
+    @Styles.Render("~/Content/Site.css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="headerContainer">
+                <h1>@Html.ActionLink("Aleksandr Reisid", "Index", "Home")</h1>
+                <div id="navcontainer">
+                    <ul id="navlist">
+                        <!---
+                        <li class="@(ViewContext.RouteData.Values["Controller"] == "Home" ? "active" : "") ">@Html.ActionLink( "Главная", "Index", "Home")</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"] == "Visa" ? "active" : "") ">@Html.ActionLink("Визы", "Index", "Visa")</li>
+                        <li class="@(ViewContext.RouteData.Values["Action"] == "Trip" ? "active" : "") ">@Html.ActionLink("Туры", "Index", "Trip")</li>
+                        <li></li>
+                            --->
+                        @Html.MenuLink( "Главная", "Index", "Home")
+                        @Html.MenuLink("Визы", "Index", "Visa")
+                        @Html.MenuLink("Туры", "Index", "Trip")
+                        @Html.MenuLink("О Нас", "About", "Home")
+                    </ul>
+                </div>
+                <br class="clearfloat" />
+                <!-- begin .slider -->
+                <div class="slider">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li><img src="~/images/sliderPic1.jpg" alt="" class="shadowStyle"></li>
+                            <li><img src="~/images/sliderPic2.jpg" alt="" class="shadowStyle"></li>
+                            <li><img src="~/images/sliderPic3.jpg" alt="" class="shadowStyle"></li>
+                        </ul>
+                    </div>
+                </div>
+                <br class="clearfloat" />
+                <!-- end .slider -->
+            </div>
+        </header>
+        <div class="container body-content">
+            @RenderBody()
+        </div>
+        <div class="push"></div>
+    </div>
+    <div class="footer">
+            <p>Developed by  Dmitri Mitikov</p>
+    </div>
+    
+
+
+    @RenderSection("scripts", required: false)
+        
+        
+</body>
+</html>

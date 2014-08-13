@@ -1,0 +1,75 @@
+﻿@model IEnumerable<aleksanderreisid.Models.Trip>
+
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="wrapper">
+
+<div id="tripLabel">
+    <h2>Календарь поездок</h2>
+</div>
+
+
+<div id="tripFilters">
+    <div id="tripFiltersList">
+      @using (Html.BeginForm())
+        {
+          <ul>
+              <li>
+                  Цена: @Html.DropDownList("sortOrder", new [] { new SelectListItem() {Text = "Цена:Меньшие впереди", Value = "price_asc"}, new SelectListItem() {Text = "Цена:Дорогие впереди", Value = "price_desc" }})
+              </li>
+              <li>
+                  Дата: <input type="date" id="startDateFilter" name="startDateFilter"/>
+              </li>
+              <input type="submit" value="Filter" />
+          </ul>       
+        }
+    </div>
+
+</div>
+    
+   
+       <!--- <tr>
+        <th>
+            @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParam, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            First Name
+        </th>
+        <th>
+            @Html.ActionLink("Date", "Index", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th></th>
+    </tr>--->
+<div id="tripBlockList">
+
+
+@foreach (var item in Model) {
+        <div class="tripContainer">
+            <div class="tripWrapper">
+                <div class="tripImg" id=""></div>
+                <div class="tripInfo">
+                    <div class="tripPrice"><p>@Html.DisplayFor(modelItem => item.Price) EUR</p></div>
+                    <div class="tripDesc">
+                        <ul class="tripInfoList">
+                            <li>
+                                Дата: @Html.DisplayFor(modelItem => item.StartDate) - @Html.DisplayFor(modelItem => item.EndDate)
+                            </li>
+                            <li>
+                                Отправление:
+                            </li>
+                            <li>
+                                Описание: @Html.DisplayFor(modelItem => item.Description)
+                            </li>
+                            <li>
+                                Города: @Html.DisplayFor(modelItem => item.CountriesTemp)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+}
+    </div>
+ </div>
