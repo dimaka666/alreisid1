@@ -17,6 +17,8 @@ namespace aleksanderreisid.Controllers
         // GET: Trip
         public ActionResult Index(string sortOrder, string startDateFilter)
         {
+            Dictionary<int, List<City>> citytripCon = new Dictionary<int, List<City>>();
+
             ViewBag.CurrentSort = sortOrder;
             ViewBag.PriceSortParam = String.IsNullOrEmpty(sortOrder) ? "price_desc" : "";
             ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
@@ -39,13 +41,13 @@ namespace aleksanderreisid.Controllers
             }
             var cities = db.cities;
      
-            Dictionary<int, List<City>> citytripCon = new Dictionary<int, List<City>>();
-           /* foreach (var t in trips)
+          
+          /** foreach (var t in trips)
             {
                 List<int> ids = new List<int>(db.citytrips.Where(i => i.Trip == t.ID).Select(i => i.City));
                 List<City> citiesList = new List<City>(db.cities.Where(c => ids.Contains(c.ID)));
                 citytripCon.Add(t.ID, citiesList);
-            }*/
+            }**/
             return View(trips.ToList());
         }
 

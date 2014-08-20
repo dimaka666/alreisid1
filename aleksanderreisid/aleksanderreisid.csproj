@@ -136,9 +136,9 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\aleksanderreisidContext.cs" />
     <Compile Include="Models\City.cs" />
-    <Compile Include="Models\Citytrip.cs" />
-    <Compile Include="Models\Content.cs" />
-    <Compile Include="Models\Countrytrip.cs" />
+    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\CountryTrip.cs" />
+    <Compile Include="Models\Document.cs" />
     <Compile Include="Models\Trip.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

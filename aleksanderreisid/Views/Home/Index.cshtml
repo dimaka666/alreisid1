@@ -1,4 +1,4 @@
-﻿@model IEnumerable<aleksanderreisid.Models.Content>
+﻿@model IEnumerable<aleksanderreisid.Models.Document>
 
 @{
     ViewBag.Title = "Home Page";
@@ -10,12 +10,12 @@
             <ul>
                 @foreach (var item in Model)
                 {
-                    if (item.Page == 0)
+                    if (item.Place == 0)
                     {
                         <li class="shadowStyle">
-                            <h2>@Html.DisplayFor(modelItem => item.Label)</h2>
+                            <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
                             <img src="images/boxPic1.jpg" alt="" class="boxPic shadowStyle">
-                            <p>@Html.DisplayFor(modelItem => item.Text) </p>
+                            <p>@Html.DisplayFor(modelItem => item.Content) </p>
                             <div class="button"><a href=""><img src="images/more.png" alt=""></a></div>
                         </li>
                     }
@@ -26,10 +26,10 @@
         <!-- end .boxes -->
             @foreach (var item in Model)
             {
-                if (item.Page == 1)
+                if (item.Place == 1)
                 {
-                    <h1>@Html.DisplayFor(modelItem => item.Label)</h1>
-                    <p>@Html.DisplayFor(modelItem => item.Text) </p>
+                    <h1>@Html.DisplayFor(modelItem => item.Name)</h1>
+                    <p>@Html.DisplayFor(modelItem => item.Content) </p>
                 }
             }
 
@@ -38,12 +38,12 @@
     <div class="rightList shadowStyle">
         @foreach (var item in Model)
             {
-                if (item.Page == 2)
+                if (item.Place == 2)
                 {
-                    <h2>@Html.DisplayFor(modelItem => item.Label)</h2>
+                    <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
                     <p>
                         <img src="images/pic.jpg" alt="" class="floatPic shadowStyle">
-                        @Html.DisplayFor(modelItem => item.Text)
+                        @Html.DisplayFor(modelItem => item.Content)
                     </p>
                 }
             }

@@ -18,13 +18,14 @@ namespace aleksanderreisid.Controllers
         // GET: Contents
         public ActionResult Index()
         {
-            return View(db.Contents.Where(n => n.Page == 1 || n.Page == 2 || n.Page == 0).ToList());
+            //Берем документы, который относятся к домашней странице. Индекс домашней страницы 0
+            return View(db.Documents.Where(n => n.PageID == 0).ToList());
         }
 
-        public ActionResult About()
+        /*public ActionResult About()
         {
-            return View(db.Contents.Where(n => n.Page == 5).ToList());
-        }
+            return View(db.Documents.Where(n => n.PageID == 5).ToList());
+        }*/
 
     }
 }

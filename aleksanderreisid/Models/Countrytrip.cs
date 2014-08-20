@@ -5,12 +5,10 @@ using System.Web;
 
 namespace aleksanderreisid.Models
 {
-    public class Countrytrip
+    public class CountryTrip
     {
         public int ID { get; set; }
-
-        public int Trip { get; set; }
-
-        public string Country { get; set; }
+        public Trip tripID { get; set; }
+        public Country CountryID { get; set; }
     }
 }

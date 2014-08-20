@@ -5,12 +5,12 @@ using System.Web;
 
 namespace aleksanderreisid.Models
 {
-    public class City
+    public class Document
     {
         public int ID { get; set; }
-
         public string Name { get; set; }
-
-        public int CountryID { get; set; }
+        public string Content { get; set; }
+        public int PageID { get; set; }
+        public int Place { get; set; }
     }
 }
