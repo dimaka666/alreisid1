@@ -1,4 +1,4 @@
-﻿@model IEnumerable<aleksanderreisid.Models.Content>
+﻿@model IEnumerable<aleksanderreisid.Models.Document>
 
 @{
     ViewBag.Title = "Index";
@@ -6,23 +6,16 @@
 <div id="visaPage" class="container">
     <div id="visaMenu">
         <ul id="visaOptions">
-            @foreach (var item in Model)
-            {
-                if (item.Page == 3)
-                {
-                    <li class="menuOption" id="visaInfo @Html.DisplayFor(modelItem => item.MenuOptionName)" onclick="menuAction('@Html.DisplayFor(modelItem => item.MenuOptionName)')"><p>@Html.DisplayFor(modelItem => item.MenuOptionName)</p></li>
-                }
-            }
         </ul>
     </div>
     <div id="visaInfo">
                     @foreach (var item in Model)
                     {
-                        if (item.Page == 3)
+                        if (item.Place == 0)
                         {
-                            <div optionName="@Html.DisplayFor(modelItem => item.MenuOptionName)" style="display:none">
-                                <h1>@Html.DisplayFor(modelItem => item.Label)</h1>
-                                <p>@Html.DisplayFor(modelItem => item.Text) </p>
+                            <div optionName="" style="display:none">
+                                <h1>@Html.DisplayFor(modelItem => item.Name)</h1>
+                                <p>@Html.DisplayFor(modelItem => item.Content) </p>
                             </div>
                         }
                     }

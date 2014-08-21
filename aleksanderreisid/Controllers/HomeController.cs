@@ -19,13 +19,14 @@ namespace aleksanderreisid.Controllers
         public ActionResult Index()
         {
             //Берем документы, который относятся к домашней странице. Индекс домашней страницы 0
+            var c = db.Documents.Where(n => n.PageID == 0);
             return View(db.Documents.Where(n => n.PageID == 0).ToList());
         }
 
-        /*public ActionResult About()
+        public ActionResult About()
         {
-            return View(db.Documents.Where(n => n.PageID == 5).ToList());
-        }*/
+            return View();
+        }
 
     }
 }
