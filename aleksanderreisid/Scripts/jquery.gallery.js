@@ -41,7 +41,7 @@
 			this.$items			= this.$wrapper.children();
 			this.itemsCount		= this.$items.length;
 			
-			this.$nav			= this.$el.find('nav');
+			this.$nav			= this.$el.find('.dg-wrapper');
 			this.$navPrev		= this.$nav.find('.dg-prev');
 			this.$navNext		= this.$nav.find('.dg-next');
 			
@@ -211,8 +211,7 @@
 					clearTimeout( _self.slideshow );
 					_self.options.autoplay	= false;
 				
-				}
-				
+				}			
 				_self._navigate('next');
 				return false;
 				

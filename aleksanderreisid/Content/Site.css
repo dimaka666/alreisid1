@@ -21,7 +21,24 @@ font-size: 25px;
 padding-top: 60px;
 width: 600px;
 }
+
+.middleTopic p{
+    box-shadow: 0px 2px 0px 0px #656B6B;
+    padding-top: 10px;
+padding-bottom: 10px;
+}
 .middleLabel {
+    box-shadow: 0px 2px 0px 0px #656B6B;
+}
+.rightList p {
+    color:#101213;
+    box-shadow: 0px 2px 0px 0px #656B6B;
+    padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.rightList h2 {
+    color:#101213;
     box-shadow: 0px 2px 0px 0px #656B6B;
 }
 

@@ -16,11 +16,11 @@
                 {
                     if (item.Place == 0)
                     {
-                        <li class="shadowStyle">
+                        <li class="shadowStyle dg-next">
                             <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
                             <img src="images/boxPic1.jpg" alt="" class="boxPic shadowStyle">
                             <p>@Html.DisplayFor(modelItem => item.Content) </p>
-                            <div id="buttonM" class="button"><a href=""><img src="images/more.png" alt=""></a></div>
+                            <!--<div id="buttonM" class="button"><a href=""><img src="images/more.png" alt=""></a></div>-->
                         </li>
                     }
                 }
@@ -28,6 +28,7 @@
             </ul>
             <br class="clearfloat" />
         </div>
+
 
         <!-- end .boxes -->
             @foreach (var item in Model)
@@ -48,7 +49,7 @@
         {
             if (item.Place == 2)
             {
-                <div class="rightList shadowStyle">
+                <div class="rightList">
                     <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
                     <p>
                         <img src="images/pic.jpg" alt="" class="floatPic shadowStyle">
@@ -79,7 +80,8 @@
 <script type="text/javascript" src="~/Scripts/jquery.gallery.js"></script>
 <script type="text/javascript">
     $(function () {
-        $('#dg-container').gallery({ autoplay: true});
+        var prev = $('.dg-wrapper').children()[2];
+        $('#dg-container').gallery({});
     });
 </script>
 
