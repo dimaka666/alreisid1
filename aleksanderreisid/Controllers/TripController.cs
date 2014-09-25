@@ -19,6 +19,8 @@ namespace aleksanderreisid.Controllers
         {
             Dictionary<int, List<City>> citytripCon = new Dictionary<int, List<City>>();
 
+            var ct = db.cities.ToList();
+
             ViewBag.CurrentSort = sortOrder;
             ViewBag.PriceSortParam = String.IsNullOrEmpty(sortOrder) ? "price_desc" : "";
             ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
@@ -48,6 +50,7 @@ namespace aleksanderreisid.Controllers
                 List<City> citiesList = new List<City>(db.cities.Where(c => ids.Contains(c.ID)));
                 citytripCon.Add(t.ID, citiesList);
             }**/
+            var ts = trips.ToList();
             return View(trips.ToList());
         }
 

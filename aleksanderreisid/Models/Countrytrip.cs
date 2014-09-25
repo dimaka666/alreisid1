@@ -8,7 +8,7 @@ namespace aleksanderreisid.Models
     public class CountryTrip
     {
         public int ID { get; set; }
-        public Trip tripID { get; set; }
-        public Country CountryID { get; set; }
+        public virtual Trip Trip { get; set; }
+        public virtual Country Country { get; set; }
     }
 }

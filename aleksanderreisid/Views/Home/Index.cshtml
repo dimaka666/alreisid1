@@ -3,11 +3,15 @@
 @{
     ViewBag.Title = "Home Page";
 }
+
+<!-- note: should work with jQuery 1.4 and up -->
+
 <div class="container">
     <section>
         <!-- begin .boxes -->
-        <div class="boxes">
-            <ul>
+        <div class="dg-container" id="dg-container">
+            <ul class="dg-wrapper">
+
                 @foreach (var item in Model)
                 {
                     if (item.Place == 0)
@@ -16,38 +20,44 @@
                             <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
                             <img src="images/boxPic1.jpg" alt="" class="boxPic shadowStyle">
                             <p>@Html.DisplayFor(modelItem => item.Content) </p>
-                            <div class="button"><a href=""><img src="images/more.png" alt=""></a></div>
+                            <div id="buttonM" class="button"><a href=""><img src="images/more.png" alt=""></a></div>
                         </li>
                     }
                 }
+
             </ul>
             <br class="clearfloat" />
         </div>
+
         <!-- end .boxes -->
             @foreach (var item in Model)
             {
                 if (item.Place == 1)
                 {
-                    <h1>@Html.DisplayFor(modelItem => item.Name)</h1>
-                    <p>@Html.DisplayFor(modelItem => item.Content) </p>
+                    <div class="middleTopic">
+                        <div class="middleLabel"><h1>@Html.DisplayFor(modelItem => item.Name)</h1></div>
+                        <p>@Html.DisplayFor(modelItem => item.Content) </p>
+                    </div>
                 }
             }
 
     </section>
     <!-- begin Right List -->
-    <div class="rightList shadowStyle">
+
         @foreach (var item in Model)
+        {
+            if (item.Place == 2)
             {
-                if (item.Place == 2)
-                {
+                <div class="rightList shadowStyle">
                     <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
                     <p>
                         <img src="images/pic.jpg" alt="" class="floatPic shadowStyle">
                         @Html.DisplayFor(modelItem => item.Content)
                     </p>
-                }
+                </div>
             }
-    </div>
+        }
+                    
     <!-- end Right List -->
     <!-- begin Left List -->
    <!--  <div class="leftList">
@@ -65,3 +75,11 @@
     <!-- end Left List -->
     <br class="clearfloat" />
 </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="~/Scripts/jquery.gallery.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#dg-container').gallery({ autoplay: true});
+    });
+</script>
+

@@ -1,12 +1,11 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+
+    padding-right: 35px;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -15,3 +14,23 @@ select,
 textarea {
     max-width: 280px;
 }
+.middleTopic {
+    color: #101213;
+font-weight: 500;
+font-size: 25px;
+padding-top: 60px;
+width: 600px;
+}
+.middleLabel {
+    box-shadow: 0px 2px 0px 0px #656B6B;
+}
+
+#carousel {
+    width:800px;
+    height: 300px;
+    display: relative;
+  }
+  #carousel img {
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+  }

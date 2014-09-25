@@ -18,7 +18,7 @@ namespace aleksanderreisid.Controllers
         // GET: Visa
         public async Task<ActionResult> Index()
         {
-            return View(await db.Documents.Where(n => n.PageID == 1).ToListAsync());
+            return View(await db.Documents.Where(n => n.PageID == 2).ToListAsync());
         }
     }
 }

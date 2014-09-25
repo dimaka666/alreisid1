@@ -22,7 +22,7 @@ clear: both;
 body  {
 	font-family: 'Belgrano', serif;
 	font-size: 20px;
-	background: #78AC95;
+	background: rgba(224, 210, 179, 0.5);
 	color: #677a83;
 }
 a {
@@ -34,7 +34,7 @@ p {
 }
 h1 {
 	font-size:30px;
-	color:#00adff;
+	color:#29312B;
 	font-family: 'Lobster', sans-serif;
 	padding:10px 0 0 0;
 }
@@ -65,7 +65,7 @@ header h1 {
 header h1 a {
 	font-family: 'Lobster', sans-serif;
 	font-size: 42px;
-	color:#159B85;
+	color:#FFEBB8;
 	text-decoration:none;
 }
 .boxes {
@@ -205,7 +205,7 @@ ul#navlist {
 	color: #fff;
 	text-decoration: none;
 	text-shadow:none;
-	background:#159B85;
+	background: rgba(37, 44, 48, 0.84);
 	border-radius:10px;
 }
 /*--------------------------------------------------------------------------------------------*/

@@ -22,7 +22,8 @@ namespace aleksanderreisid.Models
         public System.Data.Entity.DbSet<aleksanderreisid.Models.Document> Documents { get; set; }
         public System.Data.Entity.DbSet<aleksanderreisid.Models.City> cities { get; set; } 
         public System.Data.Entity.DbSet<aleksanderreisid.Models.Trip> trips { get; set; }
-
+        public System.Data.Entity.DbSet<aleksanderreisid.Models.CountryTrip> countryTrips { get; set; }
+        public System.Data.Entity.DbSet<aleksanderreisid.Models.Country> Countries { get; set; }
 
     
     }
