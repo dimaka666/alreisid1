@@ -73,6 +73,6 @@ padding-bottom: 10px;
     display:none;
 }
 
-#visaOptions .active {
+#visaOptions .activeVisa {
     text-decoration:underline;
 }
