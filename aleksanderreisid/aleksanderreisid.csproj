@@ -220,6 +220,7 @@
     <Content Include="images\boxPic2.jpg" />
     <Content Include="images\DTLT24.jpg" />
     <Content Include="images\footerBackground.jpg" />
+    <Content Include="images\home.png" />
     <Content Include="images\more.png" />
     <Content Include="images\pagination.png" />
     <Content Include="images\pagination1.png" />

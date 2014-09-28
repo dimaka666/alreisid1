@@ -142,7 +142,6 @@ font-size: 20px;
     overflow:auto;
     min-height:500px;
     margin-top:10px;
-    background-color:cadetblue;
 }
 
 .menuOption {
@@ -162,13 +161,6 @@ font-size: 20px;
     color: white;
 }
 
-.menuOption:hover {
-    background: rgba(199, 165, 165, 0.57);
-    }
-
-.visaActive {
-    background: rgba(199, 165, 165, 0.57);
-    }
 
 /*--------------------------------------------------------------------------------------------*/
 /********* begin MAIN NAV ********/
@@ -387,13 +379,14 @@ img {
     width: 150px;
     min-height:500px;
     margin-top: 10px;
+    box-shadow: 2px 0px 0px 0px #656B6B;
 }
 #visaInfo {
     position: relative;
     float: left;
-    background-color: rgba(255, 255, 255, 0.5);
     width: 80%;
     margin-top:10px;
+    margin-left:30px;
     border-radius:5px;
     margin-bottom: 10px;
     }

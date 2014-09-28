@@ -6,18 +6,20 @@
 <div id="visaPage" class="container">
     <div id="visaMenu">
         <ul id="visaOptions">
+                        @foreach (var item in Model)
+            {
+                            <li id="@Html.DisplayFor(modelItem => item.menuOptionName)"><h2>@Html.DisplayFor(modelItem => item.menuOptionNameRu)</h2></li>
+            }
         </ul>
     </div>
     <div id="visaInfo">
                     @foreach (var item in Model)
                     {
-                        if (item.Place == 0)
-                        {
-                            <div optionName="" style="display:none">
-                                <h1>@Html.DisplayFor(modelItem => item.Name)</h1>
-                                <p>@Html.DisplayFor(modelItem => item.Content) </p>
-                            </div>
-                        }
+                        <div id="@Html.DisplayFor(modelItem => item.menuOptionName)Content">
+
+                            <h1>@Html.DisplayFor(modelItem => item.Name)</h1>
+                            <p>@Html.DisplayFor(modelItem => item.Content) </p>
+                        </div>
                     }
 
                 </div>

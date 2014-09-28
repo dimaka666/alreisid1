@@ -21,18 +21,28 @@
                 <div class="headerContainer">
                     <h1>@Html.ActionLink("Aleksandr Reisid", "Index", "Home")    </h1>
                     <div id="navcontainer">
-                        <ul id="navlist">
-                            <!---
-                            <li class="@(ViewContext.RouteData.Values["Controller"] == "Home" ? "active" : "")    ">@Html.ActionLink( "Главная", "Index", "Home")   </li>
-                           <li class="@(ViewContext.RouteData.Values["Controller"] == "Visa" ? "active" : "")    ">@Html.ActionLink("Визы", "Index", "Visa")   </li>
-                           <li class="@(ViewContext.RouteData.Values["Action"] == "Trip" ? "active" : "")    ">@Html.ActionLink("Туры", "Index", "Trip")   </li>
-                           <li></li>
-    --->
-@Html.MenuLink( "Главная", "Index", "Home")
-@Html.MenuLink("Визы", "Index", "Visa")
-@Html.MenuLink("Туры", "Index", "Trip")
-@Html.MenuLink("О Нас", "About", "Home")
-</ul>
+                        <div id="navlist">
+                            <div class="naviList">
+                                <span style="position: relative;padding-top: 50px;">
+                                    @Html.MenuLink("Главная", "Index", "Home")
+                                </span>
+                            </div>
+                            <div class="naviList">
+                                <span style="position: relative;padding-top: 50px;">
+                                    @Html.MenuLink("Визы", "Index", "Visa")
+                                </span>
+                            </div>
+                            <div class="naviList">
+                                <span style="position: relative;padding-top: 50px;">
+                                    @Html.MenuLink("Туры", "Index", "Trip")
+                                </span>
+                            </div>
+                            <div class="naviList">
+                                <span style="position: relative;padding-top: 50px;">
+                                    @Html.MenuLink("О Нас", "About", "Home")
+                                </span>
+                            </div>
+</div>
 </div>
 <br class="clearfloat" />
 <!-- begin .slider -->

@@ -12,5 +12,7 @@ namespace aleksanderreisid.Models
         public string Content { get; set; }
         public int PageID { get; set; }
         public int Place { get; set; }
+        public string menuOptionName { get; set; }
+        public string menuOptionNameRu { get; set; }
     }
 }
